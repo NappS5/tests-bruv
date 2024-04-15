@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    height: 30px;
+    width: 30%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50%;
+    transition: scale 0.5s ease;
+
+}
+
+.icon:hover {
+    scale: 1.05;
+    opacity: 90%;
+
+}
+
+.icon--instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,#fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.icon--whatsapp {
+    background-color: #00b50c;
+}

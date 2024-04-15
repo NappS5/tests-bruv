@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.porco-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card-porco {
+    height: 400px;
+    cursor: pointer;
+    transition: scale 0.5s ease;
+
+}
+
+.card-porco:hover {
+    scale: 1.02;
+}
+
+.modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190vh;
+    height: 70vh;
+    position: fixed;
+    top: 0;
+    opacity: 88%;
+}
+
+.modal-content {
+  width: 25vw;
+  height: 60vh;
+  border: solid 2px #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 30px 10px;
+  align-items: center;  
+}
+.close {
+    width: 60px;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}

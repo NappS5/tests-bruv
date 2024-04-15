@@ -1,0 +1,40 @@
+.roda-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 330px;
+  width: 100%;
+  column-gap: 150px;
+  }
+  .roda {
+    height: 300px;
+    width: auto;
+  }
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.description {
+  font-family: 'Montserrat', 'Montserrat Fallback';
+  text-align: right;
+  margin-bottom: 8px;
+  align-items: center;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-top: 3px;
+}
+.sinopse-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}  
+
+
+  
